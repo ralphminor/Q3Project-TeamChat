@@ -15,7 +15,8 @@
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
     "mongoose": "4.7.7",
-    "morgan": "^1.8.1"
+    "morgan": "^1.8.1",
+    "react-native-dotenv": "^0.0.3"
   },
   "devDependencies": {
     "eslint-config-equimper": "^1.4.0",

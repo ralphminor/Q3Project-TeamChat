@@ -1,8 +1,10 @@
 import axios from 'axios';
+import {MONGODB_URI} from 'react-native-dotenv';
 
-axios.defaults.baseURL = "http://localhost:3000/api";
 
-const fakeGroupId = '58c5e006cfc3bf8578ae77d2';
+axios.defaults.baseURL = MONGODB_URI + "/api";
+
+const fakeGroupId = '58c6cb308080a27cc1d339b2';
 
 class ChatApi {
   constructor() {
